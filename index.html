@@ -7,7 +7,7 @@
     <script
       src="https://kit.fontawesome.com/7e0c6721d0.js"
       crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/poster.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Task</title>
   </head>
   <body>
@@ -36,6 +36,26 @@
             A bank teller called Guy realizes he is a background character in an
             open world video game called Free City that will soon go offline.
           </p>
+
+          <div class="carousel">
+            <div class="carousel__item carousel__item--visible">
+              <img src="images/1.jpg" alt="" class="carousel-image" />
+            </div>
+            <div class="carousel__item">
+              <img src="images/2.jpg" alt="" class="carousel-image" />
+            </div>
+            <div class="carousel__item">
+              <img src="images/3.jpg" alt="" class="carousel-image" />
+            </div>
+            <div class="carousel__actions">
+              <button id="carousel__button--prev" aria-label="Previous slide">
+                <
+              </button>
+              <button id="carousel__button--next" aria-label="Next slide">
+                >
+              </button>
+            </div>
+          </div>
 
           <div class="movie-info-actions">
             <ul>
@@ -85,5 +105,6 @@
     </div>
 
     <script src="scripts/app.js"></script>
+    <script src="scripts/slide.js"></script>
   </body>
 </html>
